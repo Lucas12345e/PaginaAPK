@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/prueba1.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #f8f8f8;
+    text-align: center;
+}
+
+header {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 80px; /* Altura del header */
+    position: relative;
+    text-align: center;
+}
+
+header img {
+    height: 100%; /* Coincide con la altura del header */
+    
+}
+
+.container {
+    padding: 20px;
+}
+
+.apk-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.apk-section p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.qr-code {
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #000;
+    color: #bbb;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9rem;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.apk-section {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    max-width: 600px;
+    margin: 20px auto;
+}
